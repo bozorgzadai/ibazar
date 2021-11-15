@@ -1,0 +1,28 @@
+//////////
+@import "base.less";
+@import "font.less";
+@import "icon.less";
+@import "color.less";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nassim;
+}
+
+.en, .ltr {
+  font-family: 'sans-serif';
+}
+
+html, body {
+  direction: rtl;
+}
+
+body {
+  margin-top: @headerHeight;
+  background-color: #fff;
+  color: #000;
+  font-family: nassim;
+  font-size: 120%;
+  height: 100%;
+}
