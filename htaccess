@@ -1,0 +1,7 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /ibazar
+
+RewriteCond %{REQUEST_URI} !\.(jpg|gif|jpeg|png|css|js|eot|svg|ttf|woff)$
+RewriteRule .* index.php [L]
